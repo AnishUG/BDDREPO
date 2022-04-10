@@ -24,64 +24,20 @@ public class RegistrationPage {
 	@FindBy (xpath="//button")
 	public WebElement button;
 	
-	public RegistrationPage(WebDriver driver) {
+
+public RegistrationPage(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
 
-	public void RegistrationSucessful () {
-		
-		name.sendKeys("Anish");
-		mobile.sendKeys("8667784767");
-		email.sendKeys("ndh@test.com");
-		password.sendKeys("7676768");
-		button.click();
-		
-		
-	}
-	
-public void VerifyNameValidation () {
-		
-		name.sendKeys("");
-		mobile.sendKeys("8667784767");
-		email.sendKeys("ndh@test.com");
-		password.sendKeys("7676768");
-		button.click();
-		
-		
-	}
 
-public void VerifyMobileValidation () {
+public void NameValidation () {
 	
-	name.sendKeys("Anish");
-	mobile.sendKeys("");
-	email.sendKeys("ndh@test.com");
-	password.sendKeys("7676768");
+	name.sendKeys("andy");
+	mobile.sendKeys("86787878");
+	email.sendKeys("andy@test.com");
+	password.sendKeys("8f8778");
 	button.click();
-	
-	
 }
-
-public void VerifyEmailValidation () {
 	
-	name.sendKeys("Anish");
-	mobile.sendKeys("8667784767");
-	email.sendKeys("");
-	password.sendKeys("7676768");
-	button.click();
-	
-	
-}
-
-public void VerifyPWValidation () {
-	
-	name.sendKeys("Anish");
-	mobile.sendKeys("8667784767");
-	email.sendKeys("ndh@test.com");
-	password.sendKeys("");
-	button.click();
-	
-	
-}
-
 }

@@ -40,7 +40,7 @@ public class LoginNewTest {
 	
 	@Test (priority=1)
 	
-	public void IncorrectUnametestcase () {
+	public void IncorrectUnametestcase () throws InterruptedException {
 		
 		LoginNewPage lp = new LoginNewPage (driver);
 		lp.IncorrectUName();
@@ -48,6 +48,8 @@ public class LoginNewTest {
 	String	Emailerror = driver.findElement(By.id("email_error")).getText();
 	
 		Assert.assertEquals(Emailerror, "Please enter email as kiran@gmail.com");
+		
+		Thread.sleep(3000);
 		
 		driver.navigate().refresh();
 		

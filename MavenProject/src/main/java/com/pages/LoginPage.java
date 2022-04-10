@@ -10,8 +10,9 @@ public class LoginPage {
 	
 	public LoginPage(WebDriver driver) {
 		this.lpdriver= driver;
-		// TODO Auto-generated constructor stub
+		
 	}
+
 
 	public WebElement getUname() {
 		return lpdriver.findElement(By.id("email"));

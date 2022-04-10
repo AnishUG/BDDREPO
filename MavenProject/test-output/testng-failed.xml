@@ -5,10 +5,7 @@
     <classes>
       <class name="com.jbk.RegistrationTest">
         <methods>
-          <include name="CheckNameValidation"/>
-          <include name="closebrowser"/>
-          <include name="setup"/>
-          <include name="CheckMobileValidation"/>
+          <include name="RegistrationTC"/>
         </methods>
       </class> <!-- com.jbk.RegistrationTest -->
     </classes>

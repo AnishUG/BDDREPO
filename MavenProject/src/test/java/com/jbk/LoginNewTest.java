@@ -36,6 +36,7 @@ public class LoginNewTest {
 		
 		Assert.assertEquals(driver.getTitle(), "JavaByKiran | Dashboard");
 		
+		
 	}
 	
 	@Test (priority=1)

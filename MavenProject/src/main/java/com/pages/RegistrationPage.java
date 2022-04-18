@@ -24,20 +24,17 @@ public class RegistrationPage {
 	@FindBy (xpath="//button")
 	public WebElement button;
 	
-
-public RegistrationPage(WebDriver driver) {
-		this.driver=driver;
+	public RegistrationPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
 
+	public void createuser () {
+		
+		name.sendKeys("Anish");
+		mobile.sendKeys("8676767");
+		email.sendKeys("Andy@gmail.com");
+		password.sendKeys("64vv7");
+		button.click();
+	}
 
-public void NameValidation () {
-	
-	name.sendKeys("andy");
-	mobile.sendKeys("86787878");
-	email.sendKeys("andy@test.com");
-	password.sendKeys("8f8778");
-	button.click();
-}
-	
 }

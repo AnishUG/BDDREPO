@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4294" started-at="2022-04-10T16:40:48Z" finished-at="2022-04-10T16:40:53Z">
+  <suite name="Default suite" duration-ms="3163" started-at="2022-04-15T09:08:33Z" finished-at="2022-04-15T09:08:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4294" started-at="2022-04-10T16:40:48Z" finished-at="2022-04-10T16:40:53Z">
+    <test name="Default test" duration-ms="3163" started-at="2022-04-15T09:08:33Z" finished-at="2022-04-15T09:08:36Z">
       <class name="com.jbk.RegistrationTest">
-        <test-method status="FAIL" signature="RegistrationTC()[pri:0, instance:com.jbk.RegistrationTest@8e0379d]" name="RegistrationTC" duration-ms="4270" started-at="2022-04-10T16:40:48Z" finished-at="2022-04-10T16:40:53Z">
+        <test-method status="FAIL" signature="RegistrationTC()[pri:0, instance:com.jbk.RegistrationTest@8e0379d]" name="RegistrationTC" duration-ms="3136" started-at="2022-04-15T09:08:33Z" finished-at="2022-04-15T09:08:36Z">
           <exception class="java.lang.NoSuchMethodError">
             <message>
               <![CDATA[com.pages.RegistrationPage.CreateUser()V]]>
